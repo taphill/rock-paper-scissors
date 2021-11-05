@@ -13,7 +13,7 @@ class Player {
 
   }
 
-  takeTurn() {
-
+  takeTurn(figther) {
+    this.token = figther
   }
 }

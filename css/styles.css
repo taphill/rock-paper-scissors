@@ -1,0 +1,63 @@
+/* || GENERAL STYLES */
+
+body {
+  font-family: 'Roboto Mono', monospace;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 2rem;
+}
+
+h1,
+h2,
+h3,
+p {
+  text-align: center;
+}
+
+
+/* || SITE WIDE */
+
+.document-container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+
+/* || MAIN CONTENT */
+
+.main-content {
+  width: 70%;
+  background-color: honeydew;
+}
+
+.figthers {
+  display: flex;
+  justify-content: center;
+  margin-top: 6rem;
+}
+
+.figthers > img {
+  width: 20%;
+  margin: 1.5rem;
+  cursor: pointer;
+}
+
+
+/* || ASIDES */
+
+.human-aside {
+  width: 15%;
+  background-color: cadetblue;
+}
+
+.computer-aside {
+  width: 15%;
+  background-color: cadetblue;
+}
